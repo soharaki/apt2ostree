@@ -11,15 +11,16 @@ Multi-Arch: foreign
 
 Package: base-files
 Architecture: amd64
-Version: 9.4ubuntu4.11
+Version: 9.4ubuntu4.13
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base
 Pre-Depends: awk
-Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
-Filename: pool/main/b/base-files/base-files_9.4ubuntu4.11_amd64.deb
-MD5sum: 540b44c59b0fb443d62040f04fc11120
-SHA1: 0da64b2a4bce8b6256044f95190b2f50c043a776
-SHA256: 464ce0515a6bd99ff3b862c5a772e51d912863db854bad074bd479815c9b50f8
+Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~), ubuntu-server (<< 1.361.5)
+Filename: pool/main/b/base-files/base-files_9.4ubuntu4.13_amd64.deb
+MD5sum: b0a6a74f9da4c0307e95e189b9a7fa5a
+SHA1: 82663980003bcea27b4e9296aeba1484cd8edac7
+SHA256: 966bb9997f79550dc5c839a96fc371f0cebddee712597a53dfbdbf6706c0b88c
+SHA512: 73ef904f10615c9ba2bdef034467b86dc87299268827765c3fdd48667cfa4bcd7fe7989fce425e35a7b0579102b7c4445ed91611b50c76ad61726be197ab67fb
 Multi-Arch: foreign
 
 Package: base-passwd
@@ -44,6 +45,7 @@ Filename: pool/main/b/bash/bash_4.3-14ubuntu1.4_amd64.deb
 MD5sum: 732883a110a54b7ce5031f6ed7d428de
 SHA1: 307876fdbb317bf2dcd5b5dcf1d728722c75df5e
 SHA256: 6363ce9c44ab17388257754c41f2bd0d23f6419838b7ed7766b135f8ecbbf48b
+SHA512: 6818ffe1a67be33997d1a237822c3d3f21d6d59747e9d92eef110416a4e5bf368881e6e8be2cd086e4b017ae7c4e7e354ee27fa3ee2f3f7243fccc456c821632
 Multi-Arch: foreign
 
 Package: bsdutils
@@ -56,6 +58,7 @@ Filename: pool/main/u/util-linux/bsdutils_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: 2337f46a0a2a4c666583eb1e8adb629d
 SHA1: b882c4ec4ab9f70d0ff82e94f065e9311c904eda
 SHA256: 3334096c1367f2b78da559e6d2c983a9d2f5061b837d3f9ce0058a54b2df1149
+SHA512: 29db8bfa52d2449f44558013c88d60d44414085d115a386434de6b1cabe6670948789db2454301d5a853e258b968f06236b0e7008767cc8f547acc4a9e37a7fa
 Multi-Arch: foreign
 
 Package: coreutils
@@ -68,6 +71,7 @@ Filename: pool/main/c/coreutils/coreutils_8.25-2ubuntu3~16.04_amd64.deb
 MD5sum: e9b0e774d272e4468f4606f379dde88a
 SHA1: cb735c4d8734c2fded42c7a9ec14bcd5eaa2f73a
 SHA256: 056b90da514d6ef207199d9c446201f9214ce5af0a2cc8db2d617587250980c9
+SHA512: 40426a994f25df55e9aca9bd09f00ba1933e83f5081518a52f62788f84c240fb062719554928d5e3722c41e2ada40a06863786879ce2e228bc5c287f8abafc09
 Multi-Arch: foreign
 
 Package: dash
@@ -91,6 +95,7 @@ Filename: pool/main/d/debconf/debconf_1.5.58ubuntu2_all.deb
 MD5sum: 61f10de6aaf8c3465a18babc7ccd7266
 SHA1: 317d621d97899fc7eadc22d237074f91fd847cf4
 SHA256: 29302bef7aba8076993f75baaded85001b0f9c7586e2357af837b50494f3e606
+SHA512: c7a558d733186fc2f8a3331d44b2488ce9650a3307d4b75418f8c357395391f9035fc3da1ff07ff7827a21743d017ec321751b5fbf381200b8855e04b16da801
 Multi-Arch: foreign
 
 Package: debianutils
@@ -126,6 +131,7 @@ Filename: pool/main/d/dpkg/dpkg_1.18.4ubuntu1.6_amd64.deb
 MD5sum: 22fe9e456e052b4a40104e6f5babb8c2
 SHA1: 204abe27ba385d46cbeb79a0c9cccba7ad0871f1
 SHA256: 64e1864e2ed3f201c65564f733e9659608a84da563f9694ee85493c7181c5096
+SHA512: cae21fa10f48b915bd89b43164f1df9cbf453f63f6b5c2558eee8a3e0dbfa1c5128ab47bd0deae734239590181945c13a2e8eb85204a7472707d50003839fc22
 Multi-Arch: foreign
 
 Package: e2fslibs
@@ -138,6 +144,7 @@ Filename: pool/main/e/e2fsprogs/e2fslibs_1.42.13-1ubuntu1.2_amd64.deb
 MD5sum: 1f121dc7889aa0abc291a55b167aac6f
 SHA1: 46f6146725f71f05b53d1ac08be6010fe8fe9e46
 SHA256: 5093e67f6c979813353afb2cbf1b5536f172d371d709a6510655bebbb63405d2
+SHA512: c8b27e7c4bd29d86738aaf930d36a6bf84e4719fcf234514f178076b8ed70121eab6d192985279e5c35b33d231a5bc438abe397e5ce18a75d436c79aac84d1bd
 Multi-Arch: same
 
 Package: e2fsprogs
@@ -150,6 +157,7 @@ Filename: pool/main/e/e2fsprogs/e2fsprogs_1.42.13-1ubuntu1.2_amd64.deb
 MD5sum: 3dc11d261efe3c140d8b6b309354c9d0
 SHA1: ac213caecc807a506376ce5198958a888e0d2360
 SHA256: 71f3a255e8e4a932f471c416ae87cdc6325cc52aad1f7832378978262bcc7f9e
+SHA512: b9d811d14d48a75d589b0508c151f6a2032717f3c46799f594377638200382146f49acae88e329910d1d124d1e51e0bf88cc1b8cda50e2a98d6498683b0d44c5
 Multi-Arch: foreign
 
 Package: findutils
@@ -174,6 +182,7 @@ Filename: pool/main/f/fontconfig/fontconfig-config_2.11.94-0ubuntu1.1_all.deb
 MD5sum: d8ee5cb98a73e9fd84f0c21b7f00728f
 SHA1: 8ce5a5bd6a9ecfafd2da833c26b4d78026b3cfab
 SHA256: 57cad57c49f62ecad1cf7086b8d8646430db5f2a6892885595517aa9a7a70e09
+SHA512: 78d86209655d990d9ec55d8766eb507b45525010e76eb80360e33de1746c6416fb5a48ad6ec8cfc5c3ac1d8a84b7afbbd23274ecb8a4a0c230835df53d27778c
 Multi-Arch: foreign
 
 Package: fonts-dejavu-core
@@ -195,6 +204,7 @@ Filename: pool/main/g/gcc-5/gcc-5-base_5.4.0-6ubuntu1~16.04.12_amd64.deb
 MD5sum: f0c536ac2c6413c7d9a246da3c4ddb5d
 SHA1: 0b1636dca0166c0ea31d29cbe018ad21e8e637ed
 SHA256: 663092c31e0dc2aaef35de11b5066f35fcff412efb9e3e2008427222682fd449
+SHA512: b6a5a3add58f15eca76f15d3b52984b299137ba0a4db6a5ae20eb6cb19810f0f6eea89590a7d53d7242d27086acd55e22d8a05804343b0d0934b1eb89d5f8b49
 Multi-Arch: same
 
 Package: gcc-6-base
@@ -218,6 +228,7 @@ Filename: pool/main/g/grep/grep_2.25-1~16.04.1_amd64.deb
 MD5sum: 14734973565c150a1a4bf58803399055
 SHA1: 1ff43c906bc69ff5cb3fb1c27f46d17d7366ac9b
 SHA256: b29bf212703582c2e6c49448577483bbb45845b06ed0f41c44d8041017ac03d0
+SHA512: 6d644b0f93100b8c555f6e30de7d7531e704ffd37b4b955430b16d1b1dea0e6600647f293ca2640df00fc947e789fc8f77eced45a3923a08bd9beca0df0901ed
 Multi-Arch: foreign
 
 Package: gzip
@@ -250,6 +261,7 @@ Filename: pool/main/i/init-system-helpers/init_1.29ubuntu4_amd64.deb
 MD5sum: 8d3d89c4cf7ae5be6a091614c0e3344b
 SHA1: 55544ecb21214f9c490f5a11d45594296fdb498d
 SHA256: 806b173a1a78040f406ce84b13dbd9edcb0ac5d08f58ad10e104685ed2c18b19
+SHA512: 569a6bf1b89f7f4bc03898a45fa428e6d0e968b3eeae75ec4c956596192f8642db2744a4510417fa933782dabb97d1eedcf91478dcbd8ebc975fb51f940c5d2b
 Multi-Arch: foreign
 
 Package: init-system-helpers
@@ -263,6 +275,7 @@ Filename: pool/main/i/init-system-helpers/init-system-helpers_1.29ubuntu4_all.de
 MD5sum: e2e41ef69b3b9758bdbd801634d4ed0c
 SHA1: 3733903966e354bdd0fba7b0da5108487500f208
 SHA256: e7d3fd50644ce39aa67ca512d03e2b14e070deac1bca5be52b689cb95e613305
+SHA512: 0039d264e2664a3992d4c27ed463dbe0ae65bc0eb277ebb485a53c2f6629a3181163c508ded63b564003a7a5318d13c61f9e4859743d56875ec98aca857098b5
 Multi-Arch: foreign
 
 Package: initscripts
@@ -307,6 +320,7 @@ Filename: pool/main/a/apparmor/libapparmor1_2.10.95-0ubuntu2.11_amd64.deb
 MD5sum: 812d4ab6f76fb24839c384df8001b9c9
 SHA1: ed67538b3d7dd27b8baef8a67a272a3e8a3695df
 SHA256: 1b433c482e1364c6a0bc28b555e9ccda08e91337a8ff7baa400d0ff7dfc90786
+SHA512: 3d554cdc448aca579ae71273e5392d6ece39f0eb45e7fa014c0abeefc10c7648e48b7b62b3e20f6381694002cba2284fe1afd0a951e21843320f95275c1b6706
 Multi-Arch: same
 
 Package: libattr1
@@ -330,6 +344,7 @@ Filename: pool/main/a/audit/libaudit-common_2.4.5-1ubuntu2.1_all.deb
 MD5sum: 45798929445bf81e91d731c19a67fa77
 SHA1: 78ac460195e1e50c1f85569dea36ff71e08d74b2
 SHA256: 5e8856bcb8da84684c6dbd6a5036fabe62db0c64a2bdd36d887bc1fca403db98
+SHA512: 4864363c72ae688fcf627208972d92064048e10cb72bb5b49bd9dad1083d6ebfa9bdbdffdaca2be1e2fd4d52343b162846c04a8915274093c0a9ca2305be7e82
 Multi-Arch: foreign
 
 Package: libaudit1
@@ -340,6 +355,7 @@ Filename: pool/main/a/audit/libaudit1_2.4.5-1ubuntu2.1_amd64.deb
 MD5sum: 589f863e5cc85e32c85d4bf0cb267ca5
 SHA1: 1359ced2b0d5301c48107a892973965477d06f22
 SHA256: 62e1512eedd636ae3398b84c954a44200f8a6944f63f58cf75a6ad4a94fbd01d
+SHA512: 9f5d706f04198e177ca8b50df45f57a850589510818b8b4f3c3ce47f92d40503a057fcb6272afb68904310aa3201d86e9ce2a5bcbbee11205950af7e2387c49e
 Multi-Arch: same
 
 Package: libblkid1
@@ -350,6 +366,7 @@ Filename: pool/main/u/util-linux/libblkid1_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: 3dc882bde3bf3c92f93d3330b9a7a5b5
 SHA1: d58abb539cf60f83d3285acbd3855ff24373a123
 SHA256: cb65d08b3824424c9f729f93f71bb1ee805dad36da26eb3fccbde1ebc5c2deae
+SHA512: 02868db1c42885b26f719fdada6f502951fcfb4be603079d5d22e0c13cfa5a2bf6a6605d680bf9f762ac6db8b74f20ce753aaae53efd59954d831cfae175cb2a
 Multi-Arch: same
 
 Package: libbz2-1.0
@@ -360,28 +377,31 @@ Filename: pool/main/b/bzip2/libbz2-1.0_1.0.6-8ubuntu0.2_amd64.deb
 MD5sum: e33f8d34d360c8eed702d2b310e1738a
 SHA1: 93bb0926bc1a9dc56f122f8e3fc37ca0c73c715e
 SHA256: 7ef95d7e6ecd8873d0809e91011b3cc2a6516bb5bf79f75b7942658620448d9f
+SHA512: cce531dcb45d5fb64a5db3f2e14df78ca7faa9ac9e79cfc5bbe4af47d0077801d7246276641037cdacdde0be38331e5b7214baf21e91b4c1fa0d38d531d2cc9b
 Multi-Arch: same
 
 Package: libc-bin
 Architecture: amd64
-Version: 2.23-0ubuntu11
+Version: 2.23-0ubuntu11.2
 Depends: libc6 (>> 2.23), libc6 (<< 2.24)
-Filename: pool/main/g/glibc/libc-bin_2.23-0ubuntu11_amd64.deb
-MD5sum: 36604530fc5881238186592fa5d9ff0d
-SHA1: a395560a999464cd0660d0b1eb394e237b643baf
-SHA256: dc6e0ba84d1010b60b7bc82b3363cb214ac0d9286c4b4f2cf11db54e7019de79
+Filename: pool/main/g/glibc/libc-bin_2.23-0ubuntu11.2_amd64.deb
+MD5sum: 85d064d926f1839efee7f37b47cddd89
+SHA1: 45de637e440efdaa61468a41ad042847d128e74e
+SHA256: 23d35f0b5031e7abf8b87a1f2168238f903089b24af70d28bb03d17aa4aea5d0
+SHA512: 22dc3c68af7cb7da04ac3b02396578792d46c380eaf130b4c262d5401f620a93ea68f00400e90ffb913f07fdc70e4501549a17862a654adba2538d5328464e2e
 Multi-Arch: foreign
 
 Package: libc6
 Architecture: amd64
-Version: 2.23-0ubuntu11
+Version: 2.23-0ubuntu11.2
 Replaces: libc6-amd64
 Depends: libgcc1
 Breaks: hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.23), locales-all (<< 2.23), lsb-core (<= 3.2-27), nscd (<< 2.23)
-Filename: pool/main/g/glibc/libc6_2.23-0ubuntu11_amd64.deb
-MD5sum: 9fa554db26eaa705ff02cab4e0289e4f
-SHA1: 6228335ebf0b5426f2d220baaabf1083e1401e8e
-SHA256: 7c802a3051203c32bba4e2e1c6cab831c338c186810bc5cab59fc600a63ac8e0
+Filename: pool/main/g/glibc/libc6_2.23-0ubuntu11.2_amd64.deb
+MD5sum: 2ab9e61048b554e13a754eb2091232b7
+SHA1: 790de8a0d7ac0b72c30f4cd2ed9919ed0d31c2c0
+SHA256: ebb79c5ff823a4f112d2525eb309be517c1fa1d5e60f4db43ba8213077a7f49b
+SHA512: c499a537a5cc51905f62d12eebbc5a60a8a0275543b736dd4e29541be4f129ce55a8cecd3383adca7ea49ee0d00ceae841575904e41e8a37516de22150acb0b7
 Multi-Arch: same
 
 Package: libcap2
@@ -416,6 +436,7 @@ Filename: pool/main/e/e2fsprogs/libcomerr2_1.42.13-1ubuntu1.2_amd64.deb
 MD5sum: 185bd22cfc271f5d778f8f5cb0be0258
 SHA1: 8056f47131949e73be86e15cfd2d9d571ae9bd7d
 SHA256: 3079cfbf642ea0e89e7af080135f98350bc4ce8a882ab63a9844f5e74eae2767
+SHA512: 4ece57f23a616bd896f465754fe5211e4d7e8e995de990699f0920f2c888ed6972385a2a23de175a4332ebe34bdb85ba478a40d50c1bc921a9e294ca51ac87e2
 Multi-Arch: same
 
 Package: libcryptsetup4
@@ -426,6 +447,7 @@ Filename: pool/main/c/cryptsetup/libcryptsetup4_1.6.6-5ubuntu2.1_amd64.deb
 MD5sum: 24aa8687bb06d653cb0cfb0960025fa6
 SHA1: 93823775f3aedd7f146577abad014e38e6faaa2c
 SHA256: 8f28712eb6c86b94ed1d18d36ae171b02260caa8d1c96da4b356d1d9c1f93cf1
+SHA512: 8d459cb0624a00711795e6d85c8622f31872492945bed29d2ddf57f8da0561174a40e90eae7e22222e2d0450b3899402e5fa47da6eb345d123bc51a90f879d88
 Multi-Arch: same
 
 Package: libdb5.3
@@ -436,6 +458,7 @@ Filename: pool/main/d/db5.3/libdb5.3_5.3.28-11ubuntu0.2_amd64.deb
 MD5sum: 52e4bfea939e97c287ef0e8dcfe2cc74
 SHA1: 651f4642389d332983c88ff18c2bb75863c29b79
 SHA256: c9dc6eaefb9a2d3a0fd1b41479fda696aec66a402deab41eb1b5c8c5e9bde43e
+SHA512: b0f01936e05a2dc9cfed5c569b611ba91f4955770d85a776a6dcb4d97df68ccf284865c95566d790eedcfc8d55db0d5f14c3da4c1b18e5ae06780f9fafde161b
 Multi-Arch: same
 
 Package: libdebconfclient0
@@ -469,6 +492,7 @@ Filename: pool/main/e/expat/libexpat1_2.1.0-7ubuntu0.16.04.5_amd64.deb
 MD5sum: f3956732f52b3f71466729eba344c8ea
 SHA1: 527e6301ca4793a469ea92441f17c9b26272a1ad
 SHA256: 372465554ac8c8ce1674c97f2029ac90960d2e54cee92b24d91fc846e942a4f2
+SHA512: 5905bede611928dbacc3b7897e14a99e6f3336b9e31a38e0393071a018239f942daf498031d45d0490636393918ab8c72f85c0e31fccb4fc86c54f15f5325fa9
 Multi-Arch: same
 
 Package: libfdisk1
@@ -479,6 +503,7 @@ Filename: pool/main/u/util-linux/libfdisk1_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: a34439d262fc26f9438f3fbf6856450b
 SHA1: 21e3cfa91dc251abd8b41d292e271a4bdc9fb351
 SHA256: 51dd3b478d8ccac418bb86576415406cfb6fdf4a11dd0d0534acb6d90d59db56
+SHA512: 368dfa17b0a4e3dd78d18a6f7bedfbea1554cfb2986c8428c43822715fe9c7a33e7e0b7857fee5a9d042e1ad077218cb119ca72defa69c4930c950425596f17f
 Multi-Arch: same
 
 Package: libfontconfig1
@@ -490,16 +515,18 @@ Filename: pool/main/f/fontconfig/libfontconfig1_2.11.94-0ubuntu1.1_amd64.deb
 MD5sum: e1d3510a190b0910720a7ae597ce53ea
 SHA1: 1c4767d985652f5fbbae5e2f0e83686f3579fdd8
 SHA256: 6c1c68046e5e87da8dfdb9db107e85c124a5214fdddf1eda2d7b76644e2f33fb
+SHA512: f31b1ad5a42306ccecfdb1a3320c31a3a56942a61483a6420496979aed0b38dda0d0268cbfb67bf0ea5d13ef523339587351a8e9c72d2dae0db6f722de53793b
 Multi-Arch: same
 
 Package: libfreetype6
 Architecture: amd64
-Version: 2.6.1-0.1ubuntu2.4
+Version: 2.6.1-0.1ubuntu2.5
 Depends: libc6 (>= 2.14), libpng12-0 (>= 1.2.13-4), zlib1g (>= 1:1.1.4)
-Filename: pool/main/f/freetype/libfreetype6_2.6.1-0.1ubuntu2.4_amd64.deb
-MD5sum: a7c80cab945424bef3f262c6b10b33ae
-SHA1: e1982903a51eb3990f908f598bc8e71491339c65
-SHA256: 3e1ca8e411da68aaefaeb0a934d3e1ce2bbdfdaae9ea38fd831807834256c83c
+Filename: pool/main/f/freetype/libfreetype6_2.6.1-0.1ubuntu2.5_amd64.deb
+MD5sum: 98c4b585046c8fe31c39d24bf08e4817
+SHA1: ac691ea4ccd4841786151007c43385a6bdf5c500
+SHA256: 00df177f8172bd8114fc504f0b1ae503302919072f6449fac9eb285ea68701f7
+SHA512: 0375e1d5746ddbefab2a90270d39b0d17d298e17632d8edc0028d8f38a99d27879f014a58e9980bff05a239f62c24f2b554d9dee3c2204656068a06534302e31
 Multi-Arch: same
 
 Package: libgcc1
@@ -521,6 +548,7 @@ Filename: pool/main/libg/libgcrypt20/libgcrypt20_1.6.5-2ubuntu0.6_amd64.deb
 MD5sum: c830f94c2d8d6e1c6bf9e2ca9e9a94cd
 SHA1: 075a9a2bfc6e708b2ebecfa0c1ceb951520ca83f
 SHA256: 9285aa307b00e73e266b4dfda5e4d7fe10c5336c6aa6032ce2917981407e8b3c
+SHA512: 56d7f590474abd6137f171aaa840674132da8fb77e1b7a44444f5b8383557f232300d4eae62ae60c7f47e1c151467005a550f3aa03abaf0e9a04b4d1add36025
 Multi-Arch: same
 
 Package: libgd3
@@ -531,6 +559,7 @@ Filename: pool/main/libg/libgd2/libgd3_2.1.1-4ubuntu0.16.04.12_amd64.deb
 MD5sum: ff1a2d84977be6399e3765590a520944
 SHA1: 00f1e1a07d93c3b1f8b6fd1f6832f4fd680ee94d
 SHA256: 297fbe6d7ccc14f7e5dba8a844b5b4b9b9aba2a136aa873313c38a287501a336
+SHA512: 818fb34e1977ff45d378f64ac9399e17c239de4619796db48b27c4abf0cb0f94c097225b6b37de852615d9730e089c81c5b1b9aadd8c8e0f7d7feeb2ed48fb91
 Multi-Arch: same
 
 Package: libgeoip1
@@ -561,6 +590,7 @@ Filename: pool/main/i/icu/libicu55_55.1-7ubuntu0.5_amd64.deb
 MD5sum: 573091adb02258aa4d148e0f7050ba16
 SHA1: d3a7b65584de4e5e76c9cb922988489ebe2a9236
 SHA256: 5c7ab6a4e0850d20c35b0c3c23f15948e685227e85d76d2eb2afd186e6efe4ed
+SHA512: d7f18cc7d401da606b13e06a1d1193c1a018d8d65e1f96c7166d7b9ad51bed5d6f2131971a4863c90d3a941d8385d96ee01b547f068cbfbdc7bf22b74514c724
 Multi-Arch: same
 
 Package: libjbig0
@@ -585,6 +615,7 @@ Filename: pool/main/libj/libjpeg-turbo/libjpeg-turbo8_1.4.2-0ubuntu3.4_amd64.deb
 MD5sum: d99d2b236ba2e11cde75d95d115324f5
 SHA1: 587a878d0cf5575b745dcca5d140e59019a82068
 SHA256: 07d65b5d5e8d2cd634c831724747f2da8c1ac100d05a8480787254c211e7c5ac
+SHA512: 809b80df393543cfae5c8bd47cb6b52971dd5c5569eed7b72a725724dd3b7944fe793659e80c72997b0687a9ff96e27a80ffc4b96632259935a3990db9a80a2e
 Multi-Arch: same
 
 Package: libjpeg8
@@ -605,6 +636,7 @@ Filename: pool/main/k/kmod/libkmod2_22-1ubuntu5.2_amd64.deb
 MD5sum: 0818deb9e0438be854dc4893f7c52a2e
 SHA1: 0d1f66961019074e192eb34737294f560d4812e9
 SHA256: 1eca39a519c22e66491fb75d64a5877ef025b6e95c759fd247c105d1e5a3133d
+SHA512: ebcbdc533d63c386552238bb6e3eb07ea6a58960cde23665c547fda6e90f2f37a2c9380dddae995ee84d307975a3f9587ff49da314a1e562d8a931ad70c5f61e
 Multi-Arch: same
 
 Package: liblzma5
@@ -626,6 +658,7 @@ Filename: pool/main/u/util-linux/libmount1_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: 69f2f452632409556a3e65df95f66bc8
 SHA1: d41a42226970d94bf4f00ec0891ef47374e7c06f
 SHA256: 23c8de181e02cb08cbaa994e4bbf91a03b9d1a5d3fec2b12513ad8a18b587cce
+SHA512: 9dde2731799a8b92a1110f62df6ea8997cff5d1e2ab3cb30e88f431336d7cc765f345af5d39d7824f5b412f5dbe797ebfff8b1052a528ffc0ffcb7fa999cb78b
 Multi-Arch: same
 
 Package: libncurses5
@@ -650,49 +683,53 @@ Multi-Arch: same
 
 Package: libpam-modules
 Architecture: amd64
-Version: 1.1.8-3.2ubuntu2.1
+Version: 1.1.8-3.2ubuntu2.3
 Replaces: libpam-umask, libpam0g-util
 Provides: libpam-mkhomedir, libpam-motd, libpam-umask
-Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.2ubuntu2.1)
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.2ubuntu2.3)
 Conflicts: libpam-mkhomedir, libpam-motd, libpam-umask
-Filename: pool/main/p/pam/libpam-modules_1.1.8-3.2ubuntu2.1_amd64.deb
-MD5sum: 7e749cf7b2d4af980d32368deaef8b12
-SHA1: b5e1b37f96705844f4df382784648c20085b335a
-SHA256: 6337e13144bcc16a5e4085d64b4111922ff56b73dbce594fc125af8cb68b1628
+Filename: pool/main/p/pam/libpam-modules_1.1.8-3.2ubuntu2.3_amd64.deb
+MD5sum: 75dcac8b404f800f2da8aa1c29ddea82
+SHA1: 54c968a2995253e6b28dcedd6305274ff7938996
+SHA256: d68f4b7017e787ff1c14a7b90c5d5de47ba5ddf1816285e2e193a6a068ed916c
+SHA512: 9cd63cf0d6e710f13287bb8b3181059d9dd5b3b9a2704c6abe312bf17d1ce1ec2154fbeaae15db63fed14a5de46dc6c53d95561936686e5084c54ad0521d1b15
 Multi-Arch: same
 
 Package: libpam-modules-bin
 Architecture: amd64
-Version: 1.1.8-3.2ubuntu2.1
+Version: 1.1.8-3.2ubuntu2.3
 Replaces: libpam-modules (<< 1.1.3-8)
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32)
-Filename: pool/main/p/pam/libpam-modules-bin_1.1.8-3.2ubuntu2.1_amd64.deb
-MD5sum: a427c5c2d10a6161a4cfd9ff44576186
-SHA1: 93c7e423fc85841eb594743beb047dc4003b27ad
-SHA256: adfdbdc9802034a1de107c85ca70052e8efdf2289ae204e85eed3775df6e66e1
+Filename: pool/main/p/pam/libpam-modules-bin_1.1.8-3.2ubuntu2.3_amd64.deb
+MD5sum: f98bddc0cf2766955309fd8e37883c7a
+SHA1: 3910f740ee37873154cd9d80a09be3e300098fc3
+SHA256: bafd5bab65c8d2b63dee9d1993eb10e0ddcc11d57ae795499e69eb990a4e5a27
+SHA512: 1c0185651b8bb2828cf2f22b2ac519bc3f2f8cd489bc8b9401d5461b40bd4994aff876f3b85db9cd69abf1696808f3236029ff1036d7c2a77e27ae2c701280ee
 Multi-Arch: foreign
 
 Package: libpam-runtime
 Architecture: all
-Version: 1.1.8-3.2ubuntu2.1
+Version: 1.1.8-3.2ubuntu2.3
 Replaces: libpam0g-dev, libpam0g-util
 Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)
 Conflicts: libpam0g-util
-Filename: pool/main/p/pam/libpam-runtime_1.1.8-3.2ubuntu2.1_all.deb
-MD5sum: 61e02bf3d7f6d7d85b9c0b260677150d
-SHA1: 5bb59964d9695744135bfb79cc525465fcc229b3
-SHA256: cc06dd66d7e18ea111e739d16fcb5fc5dd067903c7c04b0aaf6206271a093575
+Filename: pool/main/p/pam/libpam-runtime_1.1.8-3.2ubuntu2.3_all.deb
+MD5sum: bbf2a584cfdf7282daae8e45f4934e9b
+SHA1: 8104d40b49d6b147239be2a1e4f2c2c8cd5d6ab7
+SHA256: c8909cb5213be3e0fc03cf7df321400d091ba6bcdd8b273919b4f47dc622b883
+SHA512: 681740a9b024a55be1f487fbc94af26ba32768ba20bd5c5f301a1becc27ab081ae2d99527a40ef01121bdca1debdc59af1e4d23a68240bdf327aef04cb476ae9
 Multi-Arch: foreign
 
 Package: libpam0g
 Architecture: amd64
-Version: 1.1.8-3.2ubuntu2.1
+Version: 1.1.8-3.2ubuntu2.3
 Replaces: libpam0g-util
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
-Filename: pool/main/p/pam/libpam0g_1.1.8-3.2ubuntu2.1_amd64.deb
-MD5sum: 80d3ab7dfc2fdc445980d3da1b508546
-SHA1: dccfc66711605ac2bc68d864980e58c7e98348c0
-SHA256: 3e4a347a19096da31bcfeef9020a6ef801082d6b1dc578e59cdfebd614eb52f0
+Filename: pool/main/p/pam/libpam0g_1.1.8-3.2ubuntu2.3_amd64.deb
+MD5sum: 89ef4fb503c11a2b1ba9924b8bfe50f8
+SHA1: 26c1a30686ae8af9a79dfc3ceff15af2174557b6
+SHA256: a941e42b4ad90642e311a8c0024024ad8d7e0c30af51dd53680dcecee3710301
+SHA512: 557010ef0171dca8947990681609d72c3703993157b4d39aeda6ed55f5289896489670f2d0ba36cb365a58cb7dbf46093bd70e90cf4fa5dfe97610c3aed7fa4e
 Multi-Arch: same
 
 Package: libpcre3
@@ -718,6 +755,7 @@ Filename: pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
 MD5sum: 38fd39cd2f688be1f46f53f8f2c80711
 SHA1: b3d7791657429647aaa8f3f2d542cc83173b0abf
 SHA256: 9d938a376dafd1668827ceeb742f18b164c390e53774b06eaaf644713b6ffb25
+SHA512: 5dfd89216ab27dd9296f86f8994525e6f0992d31cfd101f0a86b1ea0170febd4c9cfc8c31d06df51e4c7799a6b5813f82aca6c02e49fdc54795abbf2d0d6f7e4
 Multi-Arch: same
 
 Package: libprocps4
@@ -729,16 +767,18 @@ Filename: pool/main/p/procps/libprocps4_3.3.10-4ubuntu2.5_amd64.deb
 MD5sum: 522dab6ba5612b1894e93ec8be667544
 SHA1: 56a31d967589e1df4f2e1b9bc640826a42ab6eb3
 SHA256: fc42969dec1e749f6b3b0bfdb91ad5d3876a30c29db4d22840b16a271cd39b68
+SHA512: ae7076c2ec85128fc6a22d8cfc5a423f2b592d69ab292e894597ee8318ffe586ec22680337615970ee939c8038395ecf88b476708e7670e03171c6bac6dd6c38
 Multi-Arch: same
 
 Package: libseccomp2
 Architecture: amd64
-Version: 2.4.1-0ubuntu0.16.04.2
+Version: 2.4.3-1ubuntu3.16.04.3
 Depends: libc6 (>= 2.4)
-Filename: pool/main/libs/libseccomp/libseccomp2_2.4.1-0ubuntu0.16.04.2_amd64.deb
-MD5sum: 1468290b8608da7b2578988b719c6d95
-SHA1: 5fddf2b9df6127c331e0b6790f0cc099fcbe21f1
-SHA256: f5e11d12b9f338998584284f5d764ee943c2717200d319a091cb1493d4a7718d
+Filename: pool/main/libs/libseccomp/libseccomp2_2.4.3-1ubuntu3.16.04.3_amd64.deb
+MD5sum: a8d94797ccdb9c53bc80cd3c1b9d3454
+SHA1: fb90b1ddbfd0ebde7c2dd24dd3632918095db250
+SHA256: 3ceb09d069e1a5ead27959cc4b0dae2bb500e293357eb0ac18a80323be31b12f
+SHA512: 34e0a98d68ede9f1a2e0a3e321d0f9452b508413c93ebe1fb4e3ed703dbe1461128ace607dd1deed877e0177951205bcf8018ed67ec9e8c444d6f2238308c152
 Multi-Arch: same
 
 Package: libselinux1
@@ -790,6 +830,7 @@ Filename: pool/main/u/util-linux/libsmartcols1_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: 9daae93a7dbb1a448ae001f265bab880
 SHA1: 7050d3a280eb1057a56e1c4a63028e77ea9e9cf2
 SHA256: 0bbf116c1016601ebdc63bd9d0bd63f90b8b0f7825a6a71e9030b2b1ae251599
+SHA512: 06b8e5a4bf48f477b9bea341b6f1b63bdbf53aa61e92b48c7347e449ae553ee7e09f2da96e9a0e519e2d259a435890d33a4e59405ba64ce66898f1294b6caa31
 Multi-Arch: same
 
 Package: libss2
@@ -801,16 +842,18 @@ Filename: pool/main/e/e2fsprogs/libss2_1.42.13-1ubuntu1.2_amd64.deb
 MD5sum: b3c62931f99f603dcf28ff4182aa410f
 SHA1: d47c2574ca55918d98970ca6e8c66f129a746b0b
 SHA256: 1454ca70bf10c8a0ea65ed1b8073d27c4a427d2eb1cc4247d400f1d0e5fa0c61
+SHA512: 5bd3346d0ba1f137b7647039220c58112ec32d9388b54c0fff699c439de7fb76c27131a72ccaf40464fad28f03bd954a6056b9c8b1cebd6b5419342dcd58c737
 Multi-Arch: same
 
 Package: libssl1.0.0
 Architecture: amd64
-Version: 1.0.2g-1ubuntu4.16
+Version: 1.0.2g-1ubuntu4.18
 Depends: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
-Filename: pool/main/o/openssl/libssl1.0.0_1.0.2g-1ubuntu4.16_amd64.deb
-MD5sum: 80cbff26a4bde8a0857303ea8e615e83
-SHA1: d4267219ac973a010950fc47caae684a2f37984e
-SHA256: 991a0acdb4e144eac5a4dacf1ba1ae8bae5c130bb5778eee5538320e47b585bf
+Filename: pool/main/o/openssl/libssl1.0.0_1.0.2g-1ubuntu4.18_amd64.deb
+MD5sum: 5ac99d889995961f128533c1ac629bb7
+SHA1: bafad861d22d04cf45aecd5e0bb7d0c14a2a14bd
+SHA256: e44c537a1fd9298523039dca84cfacb79c772b31a39950238d5f3ca9da73e80f
+SHA512: 8015a47c5227b0354e587213c1cc27a3083026de753c5c3550c387fc2debc9becd01746afc209c7885c4c5a4ebd70060b955da14722ea3496b5e9ee5c80784c5
 Multi-Arch: same
 
 Package: libstdc++6
@@ -824,16 +867,18 @@ Filename: pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.12_amd64.deb
 MD5sum: 27c81118795b303957571fd31342afa9
 SHA1: d3ba6b6fc9fc151a9c47dafe8b18a7f698d196b0
 SHA256: 652b9ab17faa48651187f7cd61edd3a3f4e22751c50ce1b2519af67bb086ae06
+SHA512: 9b9a23fe58b9b75cd5d28066a0f4ba249ac417be571a0c2d65dae9968b8506b9240ab7fed379fc71fb4e9af1a3e9c5e758eb9627b6e8554723bca8b6eccdaa53
 Multi-Arch: same
 
 Package: libsystemd0
 Architecture: amd64
-Version: 229-4ubuntu21.28
+Version: 229-4ubuntu21.29
 Pre-Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
-Filename: pool/main/s/systemd/libsystemd0_229-4ubuntu21.28_amd64.deb
-MD5sum: 101158813955b88e166625b80984d133
-SHA1: 4ff6645f7f2ce95584405cc8edc4a0158be8102e
-SHA256: fbda9c430e278ff2d6a3e6dd9b9e4499d38e0f250b77ecc525d5233f07335b34
+Filename: pool/main/s/systemd/libsystemd0_229-4ubuntu21.29_amd64.deb
+MD5sum: d83232bdb5cd9c0a2aca3e67cdd1f8a3
+SHA1: 9d718fa5b784c0ad5dc151bea456d561c843d57b
+SHA256: d56c69a3131d33065b4107b165404ec21128a04228e58a0d7c681480b7d30b66
+SHA512: 6aa9febb6cd3cf51208a0ba1d9f92c4f1f3da2a66bf58aac2a2a6dde06479a02cab9c0db55bca1e6a2665b41c5a054983c742eb15c79206bb318d5c01d5a18fc
 Multi-Arch: same
 
 Package: libtiff5
@@ -844,6 +889,7 @@ Filename: pool/main/t/tiff/libtiff5_4.0.6-1ubuntu0.7_amd64.deb
 MD5sum: 2deb34f2bb051e6882efbb89f56acb4f
 SHA1: bdafc49a60a007249834059948c221a47255006d
 SHA256: d0634877ddbd00e54d8799db0b97e8364d2a63e41c81e54bec4cb1062b377f30
+SHA512: 98c02ead59885fe37a13a3cd1b996654900cd58a00770956dc4f80902b303a0646091cc82831c434f183441fb957823813c0e4e181ad0e221690650161e7d7bf
 Multi-Arch: same
 
 Package: libtinfo5
@@ -860,12 +906,13 @@ Multi-Arch: same
 
 Package: libudev1
 Architecture: amd64
-Version: 229-4ubuntu21.28
+Version: 229-4ubuntu21.29
 Depends: libc6 (>= 2.16)
-Filename: pool/main/s/systemd/libudev1_229-4ubuntu21.28_amd64.deb
-MD5sum: 0ec4154c8e991d5dc4d5514b68803045
-SHA1: 1febd2029838b4ba60b06e8ae7ea9febdde66394
-SHA256: 09ce81fc31dd9eded4362e0d1ee9a3aebaaf6ad0e4b9fd68602a211be83dfd99
+Filename: pool/main/s/systemd/libudev1_229-4ubuntu21.29_amd64.deb
+MD5sum: 411e2e2c1b8157921bfb600e98641902
+SHA1: 55f446009f2fe1514435b7fc48c7d30898c504eb
+SHA256: ec2afc1fe8ab4690760d7ed9861b86e28a20b62d17eb6f94fcf154950fbf8d9d
+SHA512: d84f32ce4282fb32bd71479c53a19cfa068410b65d8810088c47e1f2aa5d73179ace8fb175fcfaf12e9666f9eb5f62ae3d3f29268051523281b4fd78bfa6d21a
 Multi-Arch: same
 
 Package: libustr-1.0-1
@@ -887,6 +934,7 @@ Filename: pool/main/u/util-linux/libuuid1_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: da27b09be8faeaa777128ada7e6c9329
 SHA1: 7f7b7ed5939c7d8e3d729eaf4ea72b12b7d7e0f7
 SHA256: 2448657baae15d88d964022bd3827e9274129928ae8a9f04556866b26cf8a4dd
+SHA512: 7077c7f9e5873aef5a3df4fcb2e31384415c06cf9f42d81db786058da884e3a63be3b633d32d0f8a206a6db6b7c45a8d871b89b1098ee3680fff3d0047bdf4d0
 Multi-Arch: same
 
 Package: libvpx3
@@ -897,26 +945,29 @@ Filename: pool/main/libv/libvpx/libvpx3_1.5.0-2ubuntu1.1_amd64.deb
 MD5sum: 9abcc80739adc9553eaf81a8001967d6
 SHA1: d2bb3c75b69c3c2a514965bf167011b27575d92a
 SHA256: 2b54c32aa43bc9014e485a370fa13f69e70b060b672c99671740a2138c3700d9
+SHA512: 66b7568956e3cc76890c3860fe6d6f8b6c13fe2f2f177253e639b2c422c5c962f388f0e6eee925a6268b47bd1c063aa5834d7a09f37d9389b15d6ac2df82e400
 Multi-Arch: same
 
 Package: libx11-6
 Architecture: amd64
-Version: 2:1.6.3-1ubuntu2.1
+Version: 2:1.6.3-1ubuntu2.2
 Depends: libc6 (>= 2.15), libxcb1 (>= 1.2), libx11-data
-Filename: pool/main/libx/libx11/libx11-6_1.6.3-1ubuntu2.1_amd64.deb
-MD5sum: 7b3aa0f594d77ab441d2f64a8860cf4a
-SHA1: 42dc1199cfc557d0e48966bae8cddf51231349db
-SHA256: 0f0e9ae20b51d9ee4607b292a1df75da2fc03e9d92f99816945ebabbdf0b1042
+Filename: pool/main/libx/libx11/libx11-6_1.6.3-1ubuntu2.2_amd64.deb
+MD5sum: 769ae7467c2985d712fbc5efc490afb9
+SHA1: 1d24728849a980d6393cb0328f4be1fb7581003d
+SHA256: 5e31ed274d7e8fd3ab57f3ee56f2250620ee5e49d116f043ef5b5de326457c86
+SHA512: 1f5c3c6f5995e00647e9cb13c43f386a99770d28b1170c060e6b0492b470a199bf7bf7757f5d996e91c46c98b5704355a2f138de8e66c73c061d6003495d290b
 Multi-Arch: same
 
 Package: libx11-data
 Architecture: all
-Version: 2:1.6.3-1ubuntu2.1
+Version: 2:1.6.3-1ubuntu2.2
 Breaks: libx11-6 (<< 2:1.4.1)
-Filename: pool/main/libx/libx11/libx11-data_1.6.3-1ubuntu2.1_all.deb
-MD5sum: 110193ab800440329d4b8358c2786138
-SHA1: 0d6db694a5f8b0a17c85743c468eec886e42b9e2
-SHA256: 3d4bb2733b43d7281949a31279a6c9d398987a7240fe946a19d47d9d871e0068
+Filename: pool/main/libx/libx11/libx11-data_1.6.3-1ubuntu2.2_all.deb
+MD5sum: 2210070ebe56abd79baceaf0408a75f6
+SHA1: 2653d1918b59ed9292d718765676a221fd926bf2
+SHA256: 9de364fe473a2cccd577ca3342ea3a7de87d5d3b5ea9d317b277f1dc381d6d40
+SHA512: eb42739ba48c433e09c3cf85906917afda09fa63f28e74dbf67a53de66192d51dcf885d5f16d5be38322e4bbc3bcc97e94621ff46144e0d34c72a08588a839ab
 Multi-Arch: foreign
 
 Package: libxau6
@@ -959,6 +1010,7 @@ Filename: pool/main/libx/libxml2/libxml2_2.9.3+dfsg1-1ubuntu0.7_amd64.deb
 MD5sum: 76fcddc9904953f49401cfe85b4c36dd
 SHA1: 95dd70e81be3828ede6bb0dcdf9fbfc0e66a8ef1
 SHA256: 2a29a734f81933bc64ed06d3953622af232cff7ce5fe041621003e7fc362de1b
+SHA512: 49208dd63a544b08a1fca6333c0e6201dceb93bf8405a495c59227060d6d3126a55f94173a57c1a0ec028baedef2291e3601fd27606368f4a38225b4e020ffb3
 Multi-Arch: same
 
 Package: libxpm4
@@ -969,6 +1021,7 @@ Filename: pool/main/libx/libxpm/libxpm4_3.5.11-1ubuntu0.16.04.1_amd64.deb
 MD5sum: 1cef98c6908b80d8f7d366669c784bac
 SHA1: 117f31053735bdff78841811a663b18926ad83ee
 SHA256: c835bf6460a2e3f6999c37f1d4e6c09d28c2e08c8029fdfb2c29e7fa57f66421
+SHA512: 85723ab8d9e50be9df12dfa237b8872d937e443149613726088502861e3c5e75a68520811eb98cefaf9d270dfa4d259f8d39b779e0a8eabf59431715c23067b9
 Multi-Arch: same
 
 Package: libxslt1.1
@@ -979,18 +1032,20 @@ Filename: pool/main/libx/libxslt/libxslt1.1_1.1.28-2.1ubuntu0.3_amd64.deb
 MD5sum: e461b4e73db792b6c714a18655a35cd1
 SHA1: 4a079ea43921ca73b2a93f3adefef4f6e10d04de
 SHA256: 2d42161e57a11bd97d9352b879c68bc26799d2e7084149698bd3d657702e7c16
+SHA512: 95ac5d7fa3dba73e2015004b51ccc0216ebba64a167fb563be646503a86e3281ab5591514ed2c65b9bd0706daa33db6b037aafb99edb1f464271b1acfcd173b2
 Multi-Arch: same
 
 Package: locales
 Architecture: all
-Version: 2.23-0ubuntu11
+Version: 2.23-0ubuntu11.2
 Replaces: libc-bin (<< 2.23), manpages-fr-extra (<< 20141022)
 Depends: libc-bin (>> 2.23), debconf (>= 0.5) | debconf-2.0
 Breaks: libc-bin (<< 2.23)
-Filename: pool/main/g/glibc/locales_2.23-0ubuntu11_all.deb
-MD5sum: b10a896f24604251aa733b03f1d4d24d
-SHA1: 3a32323b2508ceed12531256a5f1e75cfcf95830
-SHA256: f608236e76137c8597ca0a37779efc6c48eef89624c7e1cef0b6488097e69d54
+Filename: pool/main/g/glibc/locales_2.23-0ubuntu11.2_all.deb
+MD5sum: 09afbfc341d115a5f829514bb89553d3
+SHA1: 00a2cb3fb130f4cb890a6a01ef39acaab9d8443d
+SHA256: 54c67cab95128d7b1d5b0630f3f7e478e2b322598fa055649e4862c663711e2d
+SHA512: fb01a0368adf8d6242e5ef8b2ab6556621107d99d4f737e45702c9c9751372c6fd946ba76025308774a6d3ecbbb4ebcae8c8bf8a4aea0398b304f1259ea7bb04
 
 Package: login
 Architecture: amd64
@@ -1002,6 +1057,7 @@ Filename: pool/main/s/shadow/login_4.2-3.1ubuntu5.4_amd64.deb
 MD5sum: 92b87bdc83fbeb09a1238210b4719065
 SHA1: ec43149cb7fba5cf02abe3d9c8346bd54f525d4e
 SHA256: ac0925ff6c7fd0489ea81b53852e027dab8a725ba5a0ce8a0d7a18c8e97ae0d3
+SHA512: 80f3228d4134895522f1e28e757397970c209ae2ba6dc70e946a9d49f579e20dc9d1fd5cab8d99d563b6c66c0cd71e149de4ebdbb599aad78717604251b3f369
 
 Package: lsb-base
 Architecture: all
@@ -1012,6 +1068,7 @@ Filename: pool/main/l/lsb/lsb-base_9.20160110ubuntu0.2_all.deb
 MD5sum: a2da9e96d14b21489ad7f363ad52f6c9
 SHA1: a1c9250aeec1efc7d85a646dabc38472ccf8ac96
 SHA256: c777b09ccc75be22711b20d303188d289e9bcfbc20a2c34851ba92f7ee6dc208
+SHA512: 8519246d0000c52427e7a8bb2d3182b61cfb8a067a2c588e265201c0163f4ef12cf16ee22d597abc67ca25ebb5ef9012f764f3c2ece486e131678de18c0bcffa
 Multi-Arch: foreign
 
 Package: makedev
@@ -1023,6 +1080,7 @@ Filename: pool/main/m/makedev/makedev_2.3.1-93ubuntu2~ubuntu16.04.1_all.deb
 MD5sum: ef1dda8e9d64b8623a48d9771876a154
 SHA1: 504fe1921ddda283085bf52434cbf12b1ca37c4e
 SHA256: bbf14a408ecbff417e9e9d5c71ea274c215a87b0286761b64208a2f359088d1d
+SHA512: 66ca5dc1c5c0b351ce9c6cc86483de98565ad9802bcf9965970e249a30a069c7c5898cb03f8b0f9bf18be95a104e4f66a585d471d21a196887e3d5114d4533e9
 Multi-Arch: foreign
 
 Package: mawk
@@ -1044,16 +1102,18 @@ Filename: pool/main/u/util-linux/mount_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: 716323624032f60111329a949a47c8a4
 SHA1: 46127f1ca7fdce50608944f7c7016779afefbe27
 SHA256: 54b6415be5172c0026c77e267b244d173a82867a81a3921ebaf4a397c22ffb43
+SHA512: e19c14b623d670736dddeb4bcda106bd18a9d6a63605ea9a22763444774b0599980d9d031eedc9c18ae532e9d62fa83f10089d5d015a8da7510b571131b4b33a
 Multi-Arch: foreign
 
 Package: multiarch-support
 Architecture: amd64
-Version: 2.23-0ubuntu11
+Version: 2.23-0ubuntu11.2
 Depends: libc6 (>= 2.3.6-2)
-Filename: pool/main/g/glibc/multiarch-support_2.23-0ubuntu11_amd64.deb
-MD5sum: 635069dd2f89c0824bdff884df291bf8
-SHA1: a4d11a038555397b2faa46c7d08f4f71d1852434
-SHA256: b21387bcab6fc0fff12573e7b48af3265618c4066efa209e83817b92f66417b6
+Filename: pool/main/g/glibc/multiarch-support_2.23-0ubuntu11.2_amd64.deb
+MD5sum: ababd0fb24ee4b526658ccc2aec3ee06
+SHA1: e11f8df9d2dac72d5b2d9ed6307c796873ea3b58
+SHA256: 8682ca3c756f40f47fe4007b31143b54ae58d18068eba702569fb5c67e1087a2
+SHA512: 6d7ed8b04ae6eddc58e5a5dcdaf5de03a43fecd9e331fa17ed26a4bf0d374140456f1b79dbb0a88f5f798fbf261440fa83b912c7e950dcebcd7165e5a72c7e78
 Multi-Arch: foreign
 
 Package: ncurses-base
@@ -1087,6 +1147,7 @@ Filename: pool/main/n/nginx/nginx-common_1.10.3-0ubuntu0.16.04.5_all.deb
 MD5sum: 0d0a194df7979637a42341a2cfd1c089
 SHA1: 4cca70d5a93959f64dc578ee0733a5b5d5b6d38e
 SHA256: 3bf2f72178678d67f4487c88e914a70e6e7d21d023bef814fc1fe488e972a318
+SHA512: 1da973ab510182d45d8c450b0d13a44f65bc79cd5277bf4bdda04fa716a142caaac006a17bc845191c18af131d7522c8b9bd79b1ef9606ea18c9ddfc6c44a1c3
 
 Package: nginx-core
 Architecture: amd64
@@ -1099,6 +1160,7 @@ Filename: pool/main/n/nginx/nginx-core_1.10.3-0ubuntu0.16.04.5_amd64.deb
 MD5sum: cd2a7af6b818a6af210d9570d912f0af
 SHA1: 977452f7bb5cffc97594c48794f036592c692182
 SHA256: a5e76f91024e05080ab58f676fff3daef78a1cf28d7ad324387d90176da398a7
+SHA512: d8b40f2eb46fe58aed495cfb982d66c013822e5ae56bcb3d15fb873153828b70753b2cbfdbafd073ecb180c75b8cad1b3362d0e6fbbe66abb272b0c13d1032dd
 
 Package: passwd
 Architecture: amd64
@@ -1109,20 +1171,22 @@ Filename: pool/main/s/shadow/passwd_4.2-3.1ubuntu5.4_amd64.deb
 MD5sum: 57ba9ae720368fb39980813a754e76b8
 SHA1: 51633827c553cbd30875e29f673dc2013b4caaa6
 SHA256: 1a3fc2a6633088b5a596648910fc2021d3f04f56887768f2f37c603bd92db8b3
+SHA512: ec2e71116160bbe1d5c1ed687f4d7bdf04896e79c24d65951742d33a2724063d6645122321c8725d6d8a5c375f60ba29d9527361478cb4a5e2f4b425da91b14f
 Multi-Arch: foreign
 
 Package: perl-base
 Architecture: amd64
-Version: 5.22.1-9ubuntu0.6
+Version: 5.22.1-9ubuntu0.9
 Replaces: libfile-path-perl (<< 2.09), libfile-temp-perl (<< 0.2304), libio-socket-ip-perl (<< 0.37), libscalar-list-utils-perl (<< 1:1.41), libsocket-perl (<< 2.018), libxsloader-perl (<< 0.20), perl (<< 5.10.1-12), perl-modules (<< 5.20.1-3)
 Provides: libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perlapi-5.22.1
 Pre-Depends: libc6 (>= 2.23), dpkg (>= 1.17.17)
 Conflicts: defoma (<< 0.11.12), doc-base (<< 0.10.3), mono-gac (<< 2.10.8.1-3), safe-rm (<< 0.8), update-inetd (<< 4.41)
 Breaks: autoconf2.13 (<< 2.13-45), backuppc (<< 3.3.1-2), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libfile-path-perl (<< 2.09), libfile-spec-perl (<< 3.5600), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.37), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.41), libsocket-perl (<< 2.018), libxsloader-perl (<< 0.20), mailagent (<< 1:3.1-81-2), pdl (<< 1:2.007-4), perl (<< 5.22.1~), perl-modules (<< 5.22.1~)
-Filename: pool/main/p/perl/perl-base_5.22.1-9ubuntu0.6_amd64.deb
-MD5sum: 97feb21dc19ec551688659e4f9601df3
-SHA1: 9b0a1205cc6595f94b035641bce197271144e421
-SHA256: ad7eac4fd8ee4a2d14d1d02e689fc6170a136a372f55eec370442555576ed827
+Filename: pool/main/p/perl/perl-base_5.22.1-9ubuntu0.9_amd64.deb
+MD5sum: dd06f3cf04bd10ffc17db7b4211f0573
+SHA1: 1406492bab019c93d0f7d261e4009fe2cf8dfe13
+SHA256: 8e873096d4568d680a5ad2f776545435f430f6aecc521413f3afc5aeff52559e
+SHA512: f89b32472baa1cc9090e3f0788509ce76914bf77e4eeb6698b05ee101c17ccfe0cd2843994158b9b77afb548abd7299257d36bb44294414b64f2d930a41aa0a7
 
 Package: procps
 Architecture: amd64
@@ -1135,6 +1199,7 @@ Filename: pool/main/p/procps/procps_3.3.10-4ubuntu2.5_amd64.deb
 MD5sum: 5c9e5215a8b01fb868e83cd4fb5838f2
 SHA1: f55e4060bc589b89913250e091144c32e4d43a3c
 SHA256: 3d13296fba462722884b9081664595a43857807359a82016759d63a1663a4fcf
+SHA512: c1b399b01c7c3ebbcf2467da8e9b774547679de478fa9ac99e2c90f3cd9ac903c1b8bbf4986f0febffabc863c08a85c6b2db7cad70b3d9acf2ef2722102d9250
 Multi-Arch: foreign
 
 Package: sed
@@ -1156,33 +1221,36 @@ Filename: pool/main/s/sensible-utils/sensible-utils_0.0.9ubuntu0.16.04.1_all.deb
 MD5sum: 2ef985dcd226e216d6397ef61367390d
 SHA1: 17e7015e0f67a8ea6895562dfd496b014788bac2
 SHA256: 4cef35020cd50424f6b99eb3074551bbc68090306795741c6771f0ef22e4f186
+SHA512: a1e98c118f11cb111b0e7e8ebfbba4dc89224bc4f8c9525b1225afca7e383426c77d21f325fa2f57930f9dc58a7b724f17a2c5905a4007f2f0587dfedd6283c2
 Multi-Arch: foreign
 
 Package: systemd
 Architecture: amd64
-Version: 229-4ubuntu21.28
+Version: 229-4ubuntu21.29
 Replaces: systemd-services, udev (<< 228-5)
 Provides: systemd-services
-Depends: libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.2.3-3~), libselinux1 (>= 2.1.9), libsystemd0 (= 229-4ubuntu21.28), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin
+Depends: libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.2.3-3~), libselinux1 (>= 2.1.9), libsystemd0 (= 229-4ubuntu21.29), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin
 Pre-Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
 Conflicts: klogd, systemd-services
 Breaks: apparmor (<< 2.9.2-1), ifupdown (<< 0.8.5~), lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2), udev (<< 228-5)
-Filename: pool/main/s/systemd/systemd_229-4ubuntu21.28_amd64.deb
-MD5sum: a7ea1e461becda9466c1289a95b00730
-SHA1: 1be4ed8c6c334e48f1a0227baac5608c6e66150c
-SHA256: 6d25a25d56bb639445d47a3556d7d1a2034b619e76b2a6b681f8c27b2ce71dbc
+Filename: pool/main/s/systemd/systemd_229-4ubuntu21.29_amd64.deb
+MD5sum: df1bde365e4736b58ee23e0e66f41508
+SHA1: 2ab822cca72fc3e00558dd82659514b8697aba8f
+SHA256: 80ecd050e47c6743d7d79e16b2cd6f87d3453faed4ec5bef44c3fc47291fce51
+SHA512: 2f871259e211ba91fdcdef6e3b618900930daa20dd3bf1124d4e9078029a3cfc51e0995bf881309ec6d308e55debc608e355179e09883cbca7f813dab0e25e28
 Multi-Arch: foreign
 
 Package: systemd-sysv
 Architecture: amd64
-Version: 229-4ubuntu21.28
+Version: 229-4ubuntu21.29
 Replaces: sysvinit (<< 2.88dsf-44~), sysvinit-core, upstart (<< 1.13.2-0ubuntu10~), upstart-sysv
 Pre-Depends: systemd
 Conflicts: file-rc, openrc, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~), upstart-sysv
-Filename: pool/main/s/systemd/systemd-sysv_229-4ubuntu21.28_amd64.deb
-MD5sum: 7c221e942f95d572d6e51849591c0954
-SHA1: 552e699e6fdc3fd7e610ddc4895493ffe40a82ff
-SHA256: a791f5681ad10e5b44398b0a330849165b99e7b20f2024f7f30c030b3d2c6516
+Filename: pool/main/s/systemd/systemd-sysv_229-4ubuntu21.29_amd64.deb
+MD5sum: 0f153bf384d04291d9031b8ad724c59f
+SHA1: 03ae4b855825348cb6c237f0ecd88f5e5ed8bb0f
+SHA256: 3b7c14c537b9b3d8d1f84c0d35d08ea0945241dd3547f7b3ce6de70802185609
+SHA512: 2efcb55fc77a0bd1a2e46af1317ee66f52443aceff8b85046c4c9b588aac809fa37872ad72644e866a64700fbef5aa2c62e36c8fc8dcbb2493f22918e7879520
 Multi-Arch: foreign
 
 Package: sysv-rc
@@ -1221,18 +1289,20 @@ Filename: pool/main/t/tar/tar_1.28-2.1ubuntu0.1_amd64.deb
 MD5sum: 984affa3d0dbbe9bbb9d67b005f14a8a
 SHA1: 02a477abbd3123d4e4a9243a9d366b8a7bb42fa3
 SHA256: 3fb4ea7c82d84d8fe7c7909b77c3c3b733bf8694492c81aadc626b953c72e7e4
+SHA512: 28100170d3225844d627e1279f88b9903969139afce421e1ea89dc5b777eba447a713d2caf780eff6f2c6ad083688f492758fbb62c5b15f71772834f0f57cf34
 Multi-Arch: foreign
 
 Package: tzdata
 Architecture: all
-Version: 2020a-0ubuntu0.16.04
+Version: 2020d-0ubuntu0.16.04
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Provides: tzdata-stretch
 Depends: debconf (>= 0.5) | debconf-2.0
-Filename: pool/main/t/tzdata/tzdata_2020a-0ubuntu0.16.04_all.deb
-MD5sum: 2c9dc99376393b07d595b060269808cd
-SHA1: 1b7a01799160f04096b09c2216dd59dd9b59b7ca
-SHA256: 6e5c4fa3cb2ce0a15f9143381343806dda79f74d3f052d1691028e6ae6ca45bb
+Filename: pool/main/t/tzdata/tzdata_2020d-0ubuntu0.16.04_all.deb
+MD5sum: 19cb30e53b0af6b8eab59271705b1c50
+SHA1: b3424c691afc0f24f245e62e95f1ac884fdfa374
+SHA256: 41dd45b0a5752ff78555fe026557ef26eed07715615ed4bd62a962e15b07fd70
+SHA512: f9b2a8a985859140fc925d068cdf89281f073a953004e2872da1ce5dad4521cd0b6d788d5a2f73a7e112d024c49d0796cb01a6d8febd65d089dab0f7a885486c
 Multi-Arch: foreign
 
 Package: ucf
@@ -1256,6 +1326,7 @@ Filename: pool/main/u/util-linux/util-linux_2.27.1-6ubuntu3.10_amd64.deb
 MD5sum: 15faa6157817c7a3a985782c1bb65a5b
 SHA1: 38205357c793a3e7ff99585b0155dc6c96284cc2
 SHA256: 9516e6928dc0d386eb99bcafe4d4d4ff8154d0d9c48c0685223c77c03fc514b5
+SHA512: fc7772a31953d4d4f4114c04a1c51c4d4b2b1dc25b13243bfbde1b7a6a0f4399527e3c0d1c2e99f5d3f4d40c72effdce8e23676a121c3d58115f55c168c001c4
 Multi-Arch: foreign
 
 Package: zlib1g
@@ -1269,5 +1340,6 @@ Filename: pool/main/z/zlib/zlib1g_1.2.8.dfsg-2ubuntu4.3_amd64.deb
 MD5sum: d154a31d8232510776213a1f5e86f4f7
 SHA1: b8e03302a8147782f6545d8275d3c11cae2c4862
 SHA256: 7dc32cfa3794ee7e4ffc3698c1f7236a0b24704bc38185ef4aa5449f672bfb0f
+SHA512: 577162040c1b89691ebcc4ebfee2e595719b7dd4b519ee42a70b92258fff824d97cb2a0f205b8f07560503af2330de7eca11ae974f7ec263d56e5b44aee058a0
 Multi-Arch: same
 
