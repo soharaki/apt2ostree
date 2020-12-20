@@ -76,7 +76,7 @@ We have a CI job that runs every night updating the lockfiles - this is the
 equivalent of an apt-get update.  The CI command looks like:
 
     git checkout -b update-lockfiles
-    ninja update-lockfiles
+    ninja update-apt-lockfiles
     git commit -a -m "Updated lockfiles as of $(date --iso-8601)"
     git push origin updated-lockfiles
 
@@ -123,12 +123,12 @@ Usage:
 
 Update the lockfile (equivalent to `apt update`):
 
-    ninja update-lockfiles
+    ninja update-apt-lockfiles
 
 Make the rootfs a part of a normal ostree branch with history, etc.:
 
     ostree commit --tree=ref=deb/images/Packages.lock/configured \
-        -b mybranch -s "My message"
+        -b mybranch -s "My message" --repo=_build/ostree
 
 Usage
 =====
@@ -153,6 +153,7 @@ Dependencies
         $ mkdir -p $GOPATH/src/github.com/aptly-dev/aptly
         $ git clone https://github.com/stb-tester/aptly $GOPATH/src/github.com/aptly-dev/aptly
         $ cd $GOPATH/src/github.com/aptly-dev/aptly
+        $ git checkout lockfile # ← aptly lockfile create
         $ make install
 
   and add `$GOPATH/bin` to your `$PATH`
